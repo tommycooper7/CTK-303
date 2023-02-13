@@ -1,0 +1,39 @@
+.Home {
+    color: red
+}
+
+.Home {
+    background-color: lightgrey;
+}
+
+.major {
+    color:darkred
+}
+
+.major {
+    background-color: grey;
+}
+
+#info {
+    color: darkred
+}
+
+#info {
+    background-color:yellow;
+}
+
+.desc {
+    color: red
+}
+
+a {
+    color:red
+}
+
+a:visited {
+    color:green
+}
+
+a:hover {
+    color:yellow
+}
