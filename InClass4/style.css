@@ -1,0 +1,63 @@
+a {
+    color: green;
+
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+
+    text-decoration: underline;
+}
+
+.poisonsky {
+    color: white
+}
+
+.poisonsky {
+    background-color: lightblue;
+}
+
+.Toptext {
+    background-color: lightblue;
+}
+
+.pomp {
+    color: blue
+}
+
+.doc {
+    color: yellow
+}
+
+.inferno {
+    background-color: yellow;
+}
+
+.midtext {
+    color: red
+}
+
+.father {
+    color: yellow
+}
+
+.father {
+    background-color: green;
+}
+
+.midtext2 {
+    background-color: lightgreen;
+}
+
+.thedoc {
+    color:red
+}
+
+.thedoc {
+    background-color: yellow;
+}
+
+.bottomtext {
+    background-color: yellow;
+}
