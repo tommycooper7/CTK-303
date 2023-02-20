@@ -1,0 +1,80 @@
+.Home {
+    color: red
+}
+
+.Home {
+    background-color: lightgrey;
+}
+
+.major {
+    color:darkred
+}
+
+.major {
+    background-color: grey;
+}
+
+#info {
+    color: darkred
+}
+
+#info {
+    background-color:yellow;
+}
+
+.desc {
+    color: red
+}
+
+a {
+    color:red
+}
+
+a:visited {
+    color:green
+}
+
+a:hover {
+    color:yellow
+}
+
+.major {
+    text-align: center;
+}
+
+.Home {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.Home {
+    font-style: italic;
+    font-weight: normal;
+    color: orange;
+}
+
+.major {
+    font-style: italic;
+    font-weight: normal;
+    color: orange;
+}
+
+.customtext {
+    font-family: sans-serif;
+}
+
+.picture {
+    border: 2px solid black;
+    background-color: yellow;
+    padding: 20px;
+}
+
+body {
+    background-color: white;
+    background-image: url(isu1\ copy.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
