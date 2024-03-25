@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Card Design</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<style>
+  body {
+    background-color: #f8f9fa;
+  }
+  .title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .img {
+    margin-bottom: 30px;
+  }
+  .card {
+    transition: transform 0.2s;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link" href="bootstrap1.html">Card Front</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="bootstrap.html">Card Back</a>
+</li>
+</ul>
+</div>
+</nav>
+
+<div class="container">
+<h1 class="title text-center">Card Design</h1>
+
+<div class="row">
+<div class="col-md-4">
+<div class="card img">
+<a href="#" data-toggle="modal" data-target="#exampleModal">
+<img src="Asset 33.png" class="card-img-top img-fluid" alt="Image 1">
+</a>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card img">
+<a href="#" data-toggle="modal" data-target="#exampleModal">
+<img src="Asset 34.png" class="card-img-top img-fluid" alt="Image 2">
+</a>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card img">
+<a href="#" data-toggle="modal" data-target="#exampleModal">
+<img src="Asset 35.png" class="card-img-top img-fluid" alt="Image 3">
+</a>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card img">
+<a href="#" data-toggle="modal" data-target="#exampleModal">
+<img src="Asset 36.png" class="card-img-top img-fluid" alt="Image 4">
+</a>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card img">
+<a href="#" data-toggle="modal" data-target="#exampleModal">
+<img src="Asset 37.png" class="card-img-top img-fluid" alt="Image 5">
+</a>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card img">
+<a href="#" data-toggle="modal" data-target="#exampleModal">
+<img src="Asset 38.png" class="card-img-top img-fluid" alt="Image 6">
+</a>
+</div>
+</div>
+</div>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">Enlarge Image</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<img src="" class="img-fluid" alt="Enlarged Image" id="enlargedImage">
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+$('.img').click(function(){
+var imgSrc = $(this).find('img').attr('src');
+$('#enlargedImage').attr('src', imgSrc);
+});
+});
+</script>
+
+</body>
+</html>
