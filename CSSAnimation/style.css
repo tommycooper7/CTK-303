@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    animation: back-ani 5s infinite;
+}
+
+@keyframes back-ani {
+    0%   {background-color:#ff0000;}
+    50%  {background-color:#0000ff;}
+    100% {background-color:#ff0000;}
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#video-container {
+    flex: 1;
+}
+
+#video-container iframe {
+    width: 100%;
+    height: 400px;
+}
+
+#panel {
+    flex: 0 0 30%;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
