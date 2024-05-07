@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: darkgrey;
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  }
+
+canvas {
+  border: 8px solid #000000;
+}
+
+
+
